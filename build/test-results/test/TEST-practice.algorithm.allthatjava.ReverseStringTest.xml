@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="practice.algorithm.allthatjava.ReverseStringTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-27T15:24:35" hostname="CANL-BP1VC72" time="0.001">
-  <properties/>
-  <testcase name="testReversString" classname="practice.algorithm.allthatjava.ReverseStringTest" time="0.001"/>
-  <system-out><![CDATA[expectedStr:[fedcba], actualStr:[fedcba]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

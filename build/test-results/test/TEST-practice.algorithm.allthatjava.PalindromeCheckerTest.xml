@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="practice.algorithm.allthatjava.PalindromeCheckerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-03-27T15:24:35" hostname="CANL-BP1VC72" time="0.008">
+  <properties/>
+  <testcase name="testCheckPalindromeInRecursiveMethod_withValidPalidrome_shouldBeTrue" classname="practice.algorithm.allthatjava.PalindromeCheckerTest" time="0.005"/>
+  <testcase name="testCheckPalindromeInRecursiveMethod_withInvalidPalidrome_shouldBeFalse" classname="practice.algorithm.allthatjava.PalindromeCheckerTest" time="0.0"/>
+  <testcase name="testCheckPalindromeInArray_withValidPalidrome_shouldBeTrue" classname="practice.algorithm.allthatjava.PalindromeCheckerTest" time="0.0"/>
+  <testcase name="testCheckPalindromeInArray_withInvalidPalidrome_shouldBeFalse" classname="practice.algorithm.allthatjava.PalindromeCheckerTest" time="0.001"/>
+  <system-out><![CDATA[Recursive === Valid case
+0[h]:5[h]
+1[a]:4[a]
+2[n]:3[n]
+3[n]:2[n]
+4[a]:1[a]
+5[h]:0[h]
+Recursive === Invalid case
+0[h]:7[h]
+1[a]:6[a]
+2[n]:5[n]
+3[1]:4[2]
+Array === Valid case
+0[m]:2[m]
+1[o]:1[o]
+2[m]:0[m]
+Array === Invalid case
+0[m]:3[m]
+1[0]:2[1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

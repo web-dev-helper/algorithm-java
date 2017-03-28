@@ -2,7 +2,7 @@ package practice.algorithm.allthatjava;
 
 public class ReverseString{
 
-	public static String reverse(String inputStr) throws NullPointerException {
+	public static String reverse(String inputStr) {
 		
 		// Null check, throws IllegalArgumentException
 		if( inputStr == null)

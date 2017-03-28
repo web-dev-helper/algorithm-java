@@ -11,7 +11,7 @@ public class DuplicationChecker{
 	{
 		// Null Check
 		if( inputArr == null )
-			throw new Exception("inputArr cannot be null");
+			throw new IllegalArgumentException("inputArr cannot be null");
 		
 		Set<String> resultSet = new HashSet<String>();
 		Set<String> duplicated = new HashSet<String>();

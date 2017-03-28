@@ -27,6 +27,11 @@ public class PalindromeCheckerTest {
     }
     
     @Test
+    public void testCheckPalindromeInArray_withNullArgument_shouldReturnFalse(){
+    	assertThat(PalindromeChecker.isPalindromeInArray(null), is(equalTo(false)));
+    }
+    
+    @Test
     public void testCheckPalindromeInRecursiveMethod_withValidPalidrome_shouldBeTrue(){
         
         System.out.println("Recursive === Valid case");
@@ -43,4 +48,10 @@ public class PalindromeCheckerTest {
         
         assertThat(PalindromeChecker.isPalindromeInRecursiveMethod(input, 0), is(equalTo(false)));
     }
+    
+    @Test
+    public void testCheckPalindromeInRecursiveMethod_withNullArgument_shouldReturnFalse(){
+    	assertThat(PalindromeChecker.isPalindromeInRecursiveMethod(null, 0), is(equalTo(false)));
+    }
+    
 }

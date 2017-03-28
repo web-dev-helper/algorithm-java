@@ -25,4 +25,9 @@ public class DuplicationCheckerTest {
 		boolean hasMoreThanTwoDuplicatedValues5 = DuplicationChecker.hasMoreThanTwoDuplicatedValues(arrayWithFiveDuplicatedValues);
 		assertTrue( hasMoreThanTwoDuplicatedValues5 );
 	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testHasMoreThanTwoDuplicatedValues_withNullArgument_throwsIllegalArgumentException() throws Exception{
+		DuplicationChecker.hasMoreThanTwoDuplicatedValues(null);
+	}
 }

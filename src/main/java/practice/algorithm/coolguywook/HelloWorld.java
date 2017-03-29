@@ -3,7 +3,12 @@ package practice.algorithm.coolguywook;
 public class HelloWorld {
 
 	public static String print() throws Exception {
-		return "HelloWorld";
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append("Hello");
+		sb.append("World");
+		
+		return sb.toString();
 	}
 	
 }

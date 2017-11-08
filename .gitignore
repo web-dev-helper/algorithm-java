@@ -1,3 +1,8 @@
+# IntelliJ files
+.idea/
+*.iml 
+
+
 .classpath
 .gradle/
 .project
